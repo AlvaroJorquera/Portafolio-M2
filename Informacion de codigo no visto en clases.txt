@@ -1,0 +1,19 @@
+webkit-background-clip: text;  = es una propiedad que permite
+                                 que el fondo del texto se 
+                                 recorte a la forma de las
+                                 letras.
+
+webkit-text-fill-color: transparent;
+                               = establece el color de llenado
+                                 del texto. Al establecerlo
+                                 como transparente, se asegura
+                                 de que solo el fondo sea
+                                 visible en el texto(degradado
+                                 en este caso).
+webkit-  es una forma de aplicar
+         caracteristicas experimentales
+         o específicas del navegador para
+         que los desarrolladores puedan
+         probar nuevas funcionalidades antes
+         de que se estandericen en todos los
+         navegadores.

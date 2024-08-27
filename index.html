@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="icon" href="assets/img/png-transparent-triangle-black-and-white-font-letter-a-angle-triangle-a.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body >
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MiPortafolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acercademi">Acerca de mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="text-center text-white vh-100 d-flex align-items-center justify-content-center imagenDeFondo" id="home">
+            <div class="container rounded-4 opacidadTituloIntroduccion">
+                <h1 class="fs-1">Bienbenido a Mi Portafolio</h1>
+                <p class="lead fs-4 estiloPresentacion my-3">Soy un apasionado programador dedicado a crear código limpio y eficiente.</p>
+                <a href="#proyectos" class="btn btn-secondary btn-lg mb-3 botonVer my-4">Ver Mi Trabajo</a>
+            </div>
+        </div>
+    </header>
+    <hr id="acercademi">
+    <section class="container mt-3">
+        <div class="row pt-5">
+            <div class="col-lg-6">
+                <h2 class="letraTitulosSecciones mb-4 text-primary-emphasis">Acerca De Mi</h2>
+                <p>¡Hola! Soy un programador apasionado por desarrollar programas innovadores que aceleren la eficiencia y la eficacia del éxito organizacional. Bien versado en tecnología y escritura de código para crear sistemas que sean confiables y fáciles de usar. Comprometido a trabajar con los clientes para diseñar e implementar soluciones tecnológicas que mejoren los procesos comerciales y aumenten los ingresos.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="assets/img/wallpaper_1366x768_workstation-2.jpg" alt="About Me Image" class="img-fluid">
+            </div>
+        </div>
+    </section>
+<hr id="habilidades">
+    <section class="container">
+        <h2 class="text-center mt-4 pt-5 text-primary-emphasis letraTitulosSecciones pb-3">Habilidades</h2>
+        <div class="row text-center mt-4 pb-4 mb-5">
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-primary-emphasis">HTML</h3>
+                <p>Experiencia en la creación de código HTML semántico y accesible para aplicaciones web</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-success">CSS</h3>
+                <p>Competente en el diseño de aplicaciones web responsivas utilizando técnicas modernas de CSS.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-warning-emphasis">JavaScript</h3>
+                <p>
+                    Proficiente en la creación de experiencias de usuario interactivas y dinámicas utilizando JavaScript</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-danger">Java</h3>
+                <p>Experiencia en desarrollo de backend con Java.</p>
+            </div>
+        </div>
+    </section>
+    <hr id="proyectos">
+
+    <section class="container my-2">
+        <h2 class="text-center py-5 letraTitulosSecciones text-primary-emphasis">Proyectos mas destacados</h2>
+        <div class="row pb-4 mb-5">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <article class="card medidaCardProyecto border border-rounded">
+                    <img src="assets/img/proyectoPresupuesto.PNG" class="card-img-top border border-2 medidaImagenProyecto" alt="Project 1">
+                    <div class="card-body fondoCard">
+                        <h5 class="card-title mt-1 letraProyectos">Proyecto Presupuesto</h5>
+                        <p class="card-text mt-4 fw-normal">Este proyecto es una aplicación web que permite a los usuarios gestionar su presupuesto personal, ingresando y rastreando gastos y saldo disponible. Las tecnologías utilizadas incluyen HTML, CSS, y JavaScript.</p>
+                        <a href="https://alvaro77778.github.io/practConsolidacionPresupuesto/" target="_blank" class="noDecoracion fw-semibold textoVerProyecto">Click para ver el proyecto</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <article class="card medidaCardProyecto">
+                    <img src="assets/img/proyectoJuegos.PNG" class="card-img-top border border-2 medidaImagenProyecto" alt="Project 2">
+                    <div class="card-body fondoCard">
+                        <h5 class="card-title mt-1 letraProyectos">Proyecto Juegos</h5>
+                        <p class="card-text mt-4 fw-normal">Este proyecto es una aplicación web que permite interactuar con una lista de juegos consumida desde una API, permitiendo ver información, dar "me gusta" y comentar. Utiliza HTML, CSS, JavaScript, Bootstrap y Vue.js.</p>
+                        <a href="https://alvaro77778.github.io/pract_consolidacion_juegos_produccion/" target="_blank" class="noDecoracion fw-semibold textoVerProyecto">Click para ver el proyecto</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <article class="card medidaCardProyecto">
+                    <img src="assets/img/proyectoPoleras.PNG" class="card-img-top border border-2 medidaImagenProyecto" alt="Project 3">
+                    <div class="card-body fondoCard">
+                        <h5 class="card-title opacity-100 mt-1 letraProyectos">Proyecto Carrito de Compras</h5>
+                        <p class="card-text mt-4 fw-normal espacioParrafo2">Este es un proyecto simple donde se probo un modelo de carrito de compras. Utiliza HTML, CSS, JavaScript, y Bootstrap.</p>
+                        <a href="https://alvaro77778.github.io/clase23junio_proyecto_tienda_poleras_produccion/" target="_blank" class="noDecoracion fw-semibold textoVerProyecto">Click para ver el proyecto</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <hr id="contacto">
+    <section class="container mb-5">
+        <h2 class="text-center pt-5 letraTitulosSecciones text-primary-emphasis">Contacto</h2>
+        <p class="text-center">Si quieres contactarme, no dudes en enviarme un mensaje!</p>
+        <form id="formulario">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" id="botonForm" class="btn btn-secondary">Enviar Mensaje</button>
+        </form>
+    </section>
+    <footer class="bg-dark text-white py-3 text-center">
+        <p>&copy; 2024 MiPortafolio. Todos los derechos reservados.</p>
+        <p><a href="#home" class="text-white text-decoration-none badge bg-secondary fs-6">Volver al inicio</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
